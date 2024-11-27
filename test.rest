@@ -1,0 +1,33 @@
+
+###
+POST http://127.0.0.1:8000/server/accounts/register/
+Content-Type: application/json
+
+{
+  "user": {
+    "username": "jswoسhn_doe",
+    "email": "joshnw2س.doe@example.com",
+    "password": "secsuسrepassword123"
+  },
+  "date_of_birth": "1985-11-10",
+  "phone_number": "9876254210",
+  "address": "123 Elm St, City, Country",
+  "name": "Jodhn Doe",
+  "gender": "male",
+  "height": 180,
+  "weight": 75
+}
+###
+
+
+POST http://127.0.0.1:8000/server/accounts/login/
+Content-Type: application/json
+
+{
+  "username": "jsoسhn_doe",
+  "password": "secsuسrepassword123"
+}
+
+###
+
+
